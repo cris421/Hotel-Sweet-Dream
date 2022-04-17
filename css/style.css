@@ -170,20 +170,43 @@ hr {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  color: #E7E1E1;
+    
 }
 #features .features-2 {
   background: url('../img/feature-2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin-left: 300px;
+  color: #E7E1E1;
 }
 #features .features-3 {
   background: url('../img/feature-3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin-top: 10px;
+  color: #E7E1E1;
+}
+#features .features-4 {
+  background: url('../img/feature-4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: 300px;
+  margin-top: 10px;
+  color: #E7E1E1;
 }
 
+#features .features-5 {
+  background: url('../img/feature-5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 10px; 
+  color: #E7E1E1;
+}
 /* About */
 #about {
   background: #fda94f;
@@ -285,5 +308,5 @@ hr {
 /* Footer */
 #mainfooter {
   text-align: center;
-  color: #4d4d4d;
+  color:#4F6A5F;
 }
