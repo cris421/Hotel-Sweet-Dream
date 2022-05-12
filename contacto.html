@@ -27,16 +27,21 @@
   <section id="contact" class="py-80">
     <div class="container">
       <h1>Ingresa tus datos</h1>
-      <form action="">
-        <label for="name">Ingresa el nombre</label>
-        <input type="text" id="name">
+      <form action="insertar.php" class="form-reserva" method="post">
+        <label for="" class="form_label"> Nombre</label>
+        <input type="text" class="form_input" name="nombre">
 
-        <label for="email">Correo electronico</label>
-        <input type="mail" id="mail">
+        <label for=""class="form_label">Correo</label>
+        <input type="text" class="form_input" name="correo">
 
-        <label for="message">Escribe tu mensaje</label>
-        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <label for=""class="form_label">Telefono</label>
+        <input type="text" class="form_input" name="telefono">
 
+        <label for=""class="form_label">Destino</label>
+        <input type="text" class="form_input" name="destino">
+
+        <label for=""class="form_label">mensaje</label>
+        <textarea name="text" class="form_input" name="mensaje"cols="30" rows="10"></textarea>
         <button class="btn btn-dark">Enviar</button>
       </form>
     </div>
